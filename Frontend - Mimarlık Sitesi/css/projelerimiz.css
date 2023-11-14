@@ -1,0 +1,33 @@
+    .projeSection{
+       
+        padding-left: 5%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .baslik{
+        width: 100%;
+        font-size: 25px;
+        display: block;
+        height: 100px;
+        text-align: center;
+        background-color: gainsboro;
+    }
+
+    .projeSection .col2{
+        width: 50%;
+        height: 100px;
+    }
+
+
+    @media only screen and (max-width: 600px) {
+        .projeSection{
+            display: block;
+        }
+
+        .projeSection .col2{
+            width: 100%;
+            
+        }
+      }
